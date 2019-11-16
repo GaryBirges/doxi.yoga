@@ -1,0 +1,39 @@
+.firstPara{
+    padding-left:15px;
+    float:left;
+    width:35%;
+}
+.firstPic{
+    float:left;
+    background-color:lightgray;
+    width:55%;
+    height:250px;
+    padding-right:15px;
+    margin-left:35px;
+}
+.section{
+    margin: 15px 0;
+    display:inline-block;
+    /* height:300px; */
+    width:100%;
+    max-width:1200px;
+}
+.cardTitle{
+    /* margin-left:25px; */
+    font-size: 40px;
+}
+
+.firstStep{
+    margin:25px;
+}
+
+.contactCard{
+    width:300px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+    margin:10px;
+}

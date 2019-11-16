@@ -15,6 +15,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import { YogaForBeginnersComponent } from './yoga-for-beginners/yoga-for-beginners.component';
 import { VideosComponent } from './videos/videos.component';
 import { ContactComponent } from './contact/contact.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ContactComponent } from './contact/contact.component';
     MatButtonModule,
     MatIconModule,
     LayoutModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

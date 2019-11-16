@@ -6,7 +6,8 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 
 
-const routes: Routes = [{ path: 'yogaForBeginners', component: YogaForBeginnersComponent },
+const routes: Routes = [{ path: '',redirectTo: '/about',pathMatch: 'full'},
+                        { path: 'yogaForBeginners', component: YogaForBeginnersComponent },
                         { path: 'videos', component: VideosComponent },
                         { path: 'contact', component: ContactComponent },
                         { path: 'about', component: HomeComponent },];
