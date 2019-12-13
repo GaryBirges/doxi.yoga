@@ -16,6 +16,8 @@ import { YogaForBeginnersComponent } from './yoga-for-beginners/yoga-for-beginne
 import { VideosComponent } from './videos/videos.component';
 import { ContactComponent } from './contact/contact.component';
 import {MatCardModule} from '@angular/material/card';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     LayoutModule,
     MatMenuModule,
-    MatCardModule
+    MatCardModule,
+    NgxPageScrollCoreModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

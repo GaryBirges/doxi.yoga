@@ -245,3 +245,96 @@ $altTheme: mat-dark-theme($theme-primary, $theme-accent, $theme-warn);
   padding: .5em .85em;
   min-height: 2.5em;
 }
+
+.homepage{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  
+}
+.homepageC{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  // padding: 16px;
+  min-height:90vh; 
+  // background-color: #27cfdd
+}
+.homeRow{
+  display: flex;
+  max-width: 920px;
+  // margin: 60px 0;
+   padding: 60px 0; 
+  /* border-bottom:1px solid */
+}
+.homeImg, .homeImgPortrait{
+  text-align: center;
+}
+.homeImg img{
+  height:320px;
+  width:450px;
+  max-width:450px;
+max-height:320px;
+  margin:20px;
+  background-color: lightgreen;
+}
+.homeImgPortrait img{
+  height:450px; 
+  width:320px;
+  max-width:450px;
+max-height:320px;
+  margin:20px;
+  background-color: lightgreen;
+}
+.description{
+  // line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:10px;
+}
+.description p{
+}
+.reverse{
+  flex-direction: row-reverse;
+}
+.contactInfo{
+  margin-right:40px;
+  margin-left: 40px;
+}
+.contactCard{
+  width:350px;
+}
+
+.contactIcon{
+  margin-right:20px;
+}
+.firstStep{
+  margin-right:auto;
+}
+
+.backgroundImage{
+  background-image: url('.\assets\blue contact form.jpg');
+  background-size: cover;
+  // height:100%;
+  width: 100%;
+}
+.opacity{
+  border-radius: 25px;
+  opacity:0.7;
+  background-color: #fff;
+  margin-top:20px;
+}
+.contactdetails{
+  width:50%;
+  text-align: center;
+  float:right;
+}
+
+.backgroundImage2{
+  background-image: url(assets\img1.jpg);  
+  background-size: cover;
+  // height:100%;
+  width: 100%;
+}
