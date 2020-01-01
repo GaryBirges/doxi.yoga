@@ -6377,4 +6377,3 @@ module.exports = __webpack_require__(/*! D:\repos\Doxi\DoxiYoga\node_modules\@an
 /***/ })
 
 },[[2,"runtime"]]]);
-//# sourceMappingURL=polyfills-es2015.js.map
