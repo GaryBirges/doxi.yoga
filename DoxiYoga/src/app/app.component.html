@@ -18,19 +18,19 @@
             Private classes
           </span>
       </button>
-      <button mat-menu-item disabled>
-        <mat-icon>filter_vintage</mat-icon>
-        <span>
-          Yoga for weight loss
-        </span>
-      </button>
       <button mat-menu-item disabled> 
         <mat-icon>filter_vintage</mat-icon>
         <span>
           Vinyasa flow
         </span>
       </button>
-      <button mat-menu-item disabled>
+      <button mat-menu-item [routerLink]="'/retreat'">
+          <mat-icon>filter_vintage</mat-icon>
+          <span>
+              Yoga Retreat
+          </span>
+        </button>
+      <button mat-menu-item [routerLink]="'/workshop'">
           <mat-icon>filter_vintage</mat-icon>
           <span>
             Workshops
@@ -59,14 +59,28 @@
                   <a mat-list-item routerLink="/about">About</a>
                   <a mat-list-item  [matMenuTriggerFor]="smenu">Schedule</a>
                   <mat-menu #smenu="matMenu">
-                    <button mat-menu-item disabled>Private classes</button>
-                    <button mat-menu-item disabled>Yoga for weight loss</button>
-                    <button mat-menu-item disabled>Vinyasa flow</button>
-                    <button mat-menu-item disabled>Workshops</button>
-                    <button mat-menu-item [routerLink]="'/yogaForBeginners'">Yoga for beginners</button>
+                    <button mat-menu-item disabled><mat-icon>filter_vintage</mat-icon>
+                      <span>
+                        Private classes
+                      </span></button>
+                    
+                    <button mat-menu-item disabled><mat-icon>filter_vintage</mat-icon>
+                      <span>
+                        Vinyasa flow
+                      </span></button>
+                      <button mat-menu-item [routerLink]="'/retreat'"><mat-icon>filter_vintage</mat-icon>
+                        <span>
+                          Yoga Retreat
+                        </span></button>
+                    <button mat-menu-item [routerLink]="'/workshop'"> <mat-icon>filter_vintage</mat-icon>
+                      <span>
+                        Workshops
+                      </span></button>
+                    <button mat-menu-item [routerLink]="'/yogaForBeginners'"><mat-icon>filter_vintage</mat-icon>
+                      <span>Yoga for beginners</span></button>
                   </mat-menu>
                   <a mat-list-item routerLink="/videos">Videos</a>
-                  <a mat-list-item routerLink="/contacts">Contact</a>
+                  <a mat-list-item  [routerLink]="['about']"  fragment="contacts">Contact</a>
                 </mat-nav-list>
     </mat-sidenav>
    

@@ -18,6 +18,10 @@ import { ContactComponent } from './contact/contact.component';
 import {MatCardModule} from '@angular/material/card';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { WorkshopComponent } from './workshop/workshop.component';
+import { RetreatComponent } from './retreat/retreat.component';
+import { EmbedVideo } from 'ngx-embed-video';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,9 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     HomeComponent,
     YogaForBeginnersComponent,
     VideosComponent,
-    ContactComponent
+    ContactComponent,
+    WorkshopComponent,
+    RetreatComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +47,9 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     MatMenuModule,
     MatCardModule,
     NgxPageScrollCoreModule,
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    HttpClientModule,
+    EmbedVideo.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

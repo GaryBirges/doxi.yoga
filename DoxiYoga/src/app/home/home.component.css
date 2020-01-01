@@ -39,22 +39,3 @@
 .contacts{
     color:black;
 }
-@media (max-width:700px) {
-    .homeRow{
-        display:block;
-    }
-    .homeImg {
-        max-width: 100%;
-    }
-    .homeImg img, .homeImgPortrait img{
-        max-width:100%;
-        max-height:100%;
-        margin:0;
-        text-align: center;
-    }
-}
-
-#homeContainer{
-    overflow-y: scroll; 
-    height: 90vh;
-}

@@ -4,6 +4,8 @@ import { YogaForBeginnersComponent } from './yoga-for-beginners/yoga-for-beginne
 import { VideosComponent } from './videos/videos.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { WorkshopComponent } from './workshop/workshop.component';
+import { RetreatComponent } from './retreat/retreat.component';
 
 const routerOptions: ExtraOptions = {
   useHash: false,
@@ -17,6 +19,8 @@ const routerOptions: ExtraOptions = {
  
 const routes: Routes = [{ path: '',redirectTo: '/about',pathMatch: 'full'},
                         { path: 'yogaForBeginners', component: YogaForBeginnersComponent },
+                        { path: 'workshop', component: WorkshopComponent },
+                        { path: 'retreat', component: RetreatComponent },
                         { path: 'videos', component: VideosComponent },
                         { path: 'contact', component: ContactComponent },
                         { path: 'about', component: HomeComponent },];

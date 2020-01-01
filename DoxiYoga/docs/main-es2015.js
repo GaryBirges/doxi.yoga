@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"example-container\">\n  <mat-toolbar color=\"primary\" class=\"example-toolbar\">\n    <button [style.display]=\"mobileQuery.matches ? 'block' : 'none'\" mat-icon-button (click)=\"snav.toggle()\"><mat-icon>menu</mat-icon></button>\n    <h1 class=\"example-app-name\">Doxi Yoga</h1>\n    <!-- <mat-nav-list>\n     <a mat-list-item routerLink=\"/\">Home</a>\n     <a mat-list-item routerLink=\"/\">About</a>\n     <a mat-list-item routerLink=\"/\">Contact</a>\n   </mat-nav-list> -->\n   <div  *ngIf=\"!mobileQuery.matches\">\n    <a mat-button [routerLink]=\"'/about'\"> About </a>\n    <a mat-button  [matMenuTriggerFor]=\"menu\"> Schedule </a>\n    <!-- [routerLink]=\"'/schedule'\" -->\n    <mat-menu #menu=\"matMenu\">\n      <button mat-menu-item disabled>\n          <mat-icon>filter_vintage</mat-icon>\n          <span>\n            Private classes\n          </span>\n      </button>\n      <button mat-menu-item disabled>\n        <mat-icon>filter_vintage</mat-icon>\n        <span>\n          Yoga for weight loss\n        </span>\n      </button>\n      <button mat-menu-item disabled> \n        <mat-icon>filter_vintage</mat-icon>\n        <span>\n          Vinyasa flow\n        </span>\n      </button>\n      <button mat-menu-item disabled>\n          <mat-icon>filter_vintage</mat-icon>\n          <span>\n            Workshops\n          </span>\n      </button>\n      <button mat-menu-item  [routerLink]=\"'/yogaForBeginners'\"> \n        \n        <mat-icon>filter_vintage</mat-icon>\n        <span>Yoga for beginners</span>\n      </button>\n    </mat-menu>\n    <a mat-button [routerLink]=\"'/videos'\"> Videos </a>\n    <a mat-button   [routerLink]=\"['about']\"  fragment=\"contacts\" > Contact </a>\n    <!-- <a mat-button   [routerLink]=\"['about']\"  > Contact </a> -->\n\n  </div>\n  </mat-toolbar>\n  \n  <mat-sidenav-container class=\"example-sidenav-container\"\n  >\n  <!-- [style.marginTop.px]=\"mobileQuery.matches ? 56 : 0\"  -->\n    <mat-sidenav #snav [mode]=\"mobileQuery.matches ? 'over' : 'side'\" [(opened)]=\"opened\"\n                >\n                <!--  [fixedInViewport]=\"mobileQuery.matches\" fixedTopGap=\"56\" -->\n                 <mat-nav-list>\n                  <a mat-list-item routerLink=\"/about\">About</a>\n                  <a mat-list-item  [matMenuTriggerFor]=\"smenu\">Schedule</a>\n                  <mat-menu #smenu=\"matMenu\">\n                    <button mat-menu-item disabled>Private classes</button>\n                    <button mat-menu-item disabled>Yoga for weight loss</button>\n                    <button mat-menu-item disabled>Vinyasa flow</button>\n                    <button mat-menu-item disabled>Workshops</button>\n                    <button mat-menu-item [routerLink]=\"'/yogaForBeginners'\">Yoga for beginners</button>\n                  </mat-menu>\n                  <a mat-list-item routerLink=\"/videos\">Videos</a>\n                  <a mat-list-item routerLink=\"/contacts\">Contact</a>\n                </mat-nav-list>\n    </mat-sidenav>\n   \n    <mat-sidenav-content>\n      <!-- <div>\n        <img class=\"nyuszi\" src=\"./assets/20170728_110710.jpg\">\n        <p>Nyusz Nyusz Nyusz</p>\n      </div> -->\n      <router-outlet></router-outlet>\n    </mat-sidenav-content>\n  </mat-sidenav-container>\n\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"example-container\">\n  <mat-toolbar color=\"primary\" class=\"example-toolbar\">\n    <button [style.display]=\"mobileQuery.matches ? 'block' : 'none'\" mat-icon-button (click)=\"snav.toggle()\"><mat-icon>menu</mat-icon></button>\n    <h1 class=\"example-app-name\">Doxi Yoga</h1>\n    <!-- <mat-nav-list>\n     <a mat-list-item routerLink=\"/\">Home</a>\n     <a mat-list-item routerLink=\"/\">About</a>\n     <a mat-list-item routerLink=\"/\">Contact</a>\n   </mat-nav-list> -->\n   <div  *ngIf=\"!mobileQuery.matches\">\n    <a mat-button [routerLink]=\"'/about'\"> About </a>\n    <a mat-button  [matMenuTriggerFor]=\"menu\"> Schedule </a>\n    <!-- [routerLink]=\"'/schedule'\" -->\n    <mat-menu #menu=\"matMenu\">\n      <button mat-menu-item disabled>\n          <mat-icon>filter_vintage</mat-icon>\n          <span>\n            Private classes\n          </span>\n      </button>\n      <button mat-menu-item disabled> \n        <mat-icon>filter_vintage</mat-icon>\n        <span>\n          Vinyasa flow\n        </span>\n      </button>\n      <button mat-menu-item [routerLink]=\"'/retreat'\">\n          <mat-icon>filter_vintage</mat-icon>\n          <span>\n              Yoga Retreat\n          </span>\n        </button>\n      <button mat-menu-item [routerLink]=\"'/workshop'\">\n          <mat-icon>filter_vintage</mat-icon>\n          <span>\n            Workshops\n          </span>\n      </button>\n      <button mat-menu-item  [routerLink]=\"'/yogaForBeginners'\"> \n        \n        <mat-icon>filter_vintage</mat-icon>\n        <span>Yoga for beginners</span>\n      </button>\n    </mat-menu>\n    <a mat-button [routerLink]=\"'/videos'\"> Videos </a>\n    <a mat-button   [routerLink]=\"['about']\"  fragment=\"contacts\" > Contact </a>\n    <!-- <a mat-button   [routerLink]=\"['about']\"  > Contact </a> -->\n\n  </div>\n  </mat-toolbar>\n  \n  <mat-sidenav-container class=\"example-sidenav-container\"\n  >\n  <!-- [style.marginTop.px]=\"mobileQuery.matches ? 56 : 0\"  -->\n    <mat-sidenav #snav [mode]=\"mobileQuery.matches ? 'over' : 'side'\" [(opened)]=\"opened\"\n                >\n                <!--  [fixedInViewport]=\"mobileQuery.matches\" fixedTopGap=\"56\" -->\n                 <mat-nav-list>\n                  <a mat-list-item routerLink=\"/about\">About</a>\n                  <a mat-list-item  [matMenuTriggerFor]=\"smenu\">Schedule</a>\n                  <mat-menu #smenu=\"matMenu\">\n                    <button mat-menu-item disabled><mat-icon>filter_vintage</mat-icon>\n                      <span>\n                        Private classes\n                      </span></button>\n                    \n                    <button mat-menu-item disabled><mat-icon>filter_vintage</mat-icon>\n                      <span>\n                        Vinyasa flow\n                      </span></button>\n                      <button mat-menu-item [routerLink]=\"'/retreat'\"><mat-icon>filter_vintage</mat-icon>\n                        <span>\n                          Yoga Retreat\n                        </span></button>\n                    <button mat-menu-item [routerLink]=\"'/workshop'\"> <mat-icon>filter_vintage</mat-icon>\n                      <span>\n                        Workshops\n                      </span></button>\n                    <button mat-menu-item [routerLink]=\"'/yogaForBeginners'\"><mat-icon>filter_vintage</mat-icon>\n                      <span>Yoga for beginners</span></button>\n                  </mat-menu>\n                  <a mat-list-item routerLink=\"/videos\">Videos</a>\n                  <a mat-list-item  [routerLink]=\"['about']\"  fragment=\"contacts\">Contact</a>\n                </mat-nav-list>\n    </mat-sidenav>\n   \n    <mat-sidenav-content>\n      <!-- <div>\n        <img class=\"nyuszi\" src=\"./assets/20170728_110710.jpg\">\n        <p>Nyusz Nyusz Nyusz</p>\n      </div> -->\n      <router-outlet></router-outlet>\n    </mat-sidenav-content>\n  </mat-sidenav-container>\n\n</div>");
 
 /***/ }),
 
@@ -58,7 +58,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"homepageC \" #homepage id=\"homepage\">\n    <div class=\"homeRow\">\n        <div class=\"homeImg\">\n            <img src=\".\\assets\\20170728_110710.jpg\">\n        </div>\n        <div class=\"description\">\n            <h2>About Me</h2>\n            <p>My story begins when I arrived to England. \n                This is where I first met Yoga.\n                Sport always been an important part of my life, so I was open to trying it out.\n                First I just practiced at home, watching videos, after I decided to go to my local gym, where I attended to yoga (Hatha) and Pilates classes.\n                When I was stepping on the yoga mat and started practicing Surya Namaskar, it was a fantastic feeling, physically and mentally filled up me, I was reborn.\n        </p>\n        </div>\n    </div>\n</div>\n<div  class=\"homepageC backgroundImage2\">\n    <div class=\"homeRow reverse\">\n        <div class=\"homeImgPortrait\">\n            <img>\n        </div>\n        <div class=\"description\">\n            <h2>Yoga with Me</h2>\n            <p>After that, I was searching to the opportunity to practicing yoga and I decided to change my lifestyle and that I could focus on yoga. Therefore I decided to apply in a 200 hour yoga teacher training course.\n                That's how I found Elton Heather's yoga course. The training was very diverse. I learned a lot of things about Asanas and thus meaningful practices that can help purify.\n                She taught us that yoga is more than just exercise, not just a series of asanas, it's much more.\n                I would like to proceed to be better myself, and push my limits even further and show it to others how can they practice yoga and relax as a sport what can move every muscle in the whole body. \n            </p>\n        </div>\n    </div>\n</div>\n<div  class=\"homepageC \">\n    <div class=\"homeRow\">\n        <div class=\"homeImg\">\n            <img>\n        </div>\n        <div class=\"description\">\n            \n                <p>        \n                    Other than yoga I do different sports as well, like indoor climbing and practicing contortionist. I like the deep and slow stretching. \n                    Iona Luvsandorj Denning is my performer contortion trainer. She works on our adequate flexibility, handstand and contortion during the class. Help us to keep the right positions in the stretching.\n                    I would like to pass through all of this knowledge and experience to my students.\n                    I not want to just practice yoga, I want to pass on to as many people as possible this knowledge, and positive experiences that have fundamentally changed my life.\n                </p>\n        </div>\n    </div>\n    <div class=\"homeRow \">\n        <!-- <div class=\"firstStep\"> -->\n                    <button mat-raised-button color=\"primary\" [routerLink]=\"'/yogaForBeginners'\">First step</button>\n               \n        <!-- </div> -->\n        <!-- <div></div> -->\n    </div>\n</div>\n<div  class=\"homepageC backgroundImage\">\n    <div  id=\"contacts\" class=\"theEnd\"></div>\n    <div class=\"homeRow reverse opacity\">\n            <div class=\"contactdetails \">\n                    <!-- <mat-card class=\"contactCard\"> -->\n                            <!-- <mat-card-header></mat-card-header> -->\n                            <mat-list role=\"list\">\n                                <mat-list-item role=\"listitem\">\n                                    <i class=\"material-icons contactIcon\">phone</i>+4474123456789\n                                </mat-list-item>\n                                <mat-list-item role=\"listitem\">\n                                    <i class=\"material-icons contactIcon\">email</i>\n                                    <a href=\"mailto:eudoxia87@gmail.com\"> eudoxia87@gmail.com</a>\n                                </mat-list-item>\n                                <mat-list-item role=\"listitem\">\n                                    <i class=\"material-icons contactIcon\">location_city</i>\n                                    West Acton, London\n                                </mat-list-item>\n                            </mat-list>\n                    <!-- </mat-card> -->\n            </div>\n            <section  class=\"description contactInfo\">\n                    <h2  >Contact</h2> \n                    <p class=\"\">        \n                       If you have a question about me, about yoga or just want to chat, pleaase feel free to drop me a line or call me. \n                    </p>\n                </section>\n        </div>\n</div>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- <div>\n    <mat-card class=\"card\">\n            <mat-card-header class=\"cardTitle\">About Me</mat-card-header>\n            <div class=\"section\">\n                <div class=\"firstPara\">\n                    <p>My story begins when I arrived to England. \n                            This is where I first met Yoga.\n                            Sport always been an important part of my life, so I was open to trying it out.\n                            First I just practiced at home, watching videos, after I decided to go to my local gym, where I attended to yoga (Hatha) and Pilates classes.\n                            When I was stepping on the yoga mat and started practicing Surya Namaskar, it was a fantastic feeling, physically and mentally filled up me, I was reborn.\n                    </p>\n                </div>\n                <div class=\"firstPic\">\n                    <img>\n                </div>\n            </div>\n    </mat-card>\n</div>\n<div>\n    <mat-card class=\"card\">\n            <mat-card-header class=\"cardTitle\">Yoga with Me</mat-card-header>\n            <div class=\"section\">\n                <div class=\"firstPic\">\n                    <img>\n                </div>\n                <div class=\"firstPara\">\n                    <p>After that, I was searching to the opportunity to practicing yoga and I decided to change my lifestyle and that I could focus on yoga. Therefore I decided to apply in a 200 hour yoga teacher training course.\n                        That's how I found Elton Heather's yoga course. The training was very diverse. I learned a lot of things about Asanas and thus meaningful practices that can help purify.\n                        She taught us that yoga is more than just exercise, not just a series of asanas, it's much more.\n                        I would like to proceed to be better myself, and push my limits even further and show it to others how can they practice yoga and relax as a sport what can move every muscle in the whole body. \n                    </p>\n                </div>\n            </div> -->\n    <!-- </mat-card>\n</div>\n<div>\n    <mat-card class=\"card\"> -->\n            <!-- <mat-card-header class=\"cardTitle\">Yoga with Me</mat-card-header> -->\n            <!-- <div class=\"section\">\n                <div class=\"firstPara\">\n                    <p>        \n                        Other than yoga I do different sports as well, like indoor climbing and practicing contortionist. I like the deep and slow stretching. \n                        Iona Luvsandorj Denning is my performer contortion trainer. She works on our adequate flexibility, handstand and contortion during the class. Help us to keep the right positions in the stretching.\n                        I would like to pass through all of this knowledge and experience to my students.\n                        I not want to just practice yoga, I want to pass on to as many people as possible this knowledge, and positive experiences that have fundamentally changed my life.\n                    </p>\n                </div>\n                <div class=\"firstPic\">\n                    <img>\n                </div>\n            </div>\n    </mat-card>\n</div>\n\n\n<div class=\"firstStep\">\n    <button mat-raised-button color=\"primary\" [routerLink]=\"'/yogaForBeginners'\">First step</button>\n</div>\n<mat-card class=\"card\">\n    <div class=\"contactCard\">\n        <mat-card >\n                <mat-card-header>Contact</mat-card-header>\n                <mat-list role=\"list\">\n                    <mat-list-item role=\"listitem\">+4474123456789</mat-list-item>\n                    <mat-list-item role=\"listitem\">eudoxia87@gmail.com</mat-list-item>\n                    <mat-list-item role=\"listitem\">West Acton, London</mat-list-item>\n                </mat-list>\n        </mat-card>\n    \n    </div>\n</mat-card> -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"homeContainer\" #homeContainer >\n    <div class=\"toTop\"></div>\n    <div class=\"homepageC \" #homepage id=\"homepage\">\n        <div class=\"homeRow\">\n            <div class=\"homeImg\">\n                <img src=\".\\assets\\photo1.jpg\">\n                <!-- <img src=\".\\assets\\20170728_110710.jpg\"> -->\n            </div>\n            <div class=\"description\">\n                <h2>About Me</h2>\n                <p>My story begins when I arrived to England. \n                    This is where I first met Yoga.\n                    Sport always been an important part of my life, so I was open to trying it out.\n                    First I just practiced at home, watching videos, after I decided to go to my local gym, where I attended to yoga (Hatha) and Pilates classes.\n                    When I was stepping on the yoga mat and started practicing Surya Namaskar, it was a fantastic feeling, physically and mentally filled up me, I was reborn.\n            </p>\n            </div>\n        </div>\n    </div>\n    <div  class=\"homepageC backgroundImage2\">\n        <div class=\"homeRow reverse\">\n            <div class=\"homeImgPortrait\">\n                <img src=\".\\assets\\IMG_20191220_135258.jpg\">\n            </div>\n            <div class=\"description\">\n                <h2>Yoga with Me</h2>\n                <p>After that, I was searching to the opportunity to practicing yoga and I decided to change my lifestyle and that I could focus on yoga. Therefore I decided to apply in a 200 hour yoga teacher training course.\n                    That's how I found Elton Heather's yoga course. The training was very diverse. I learned a lot of things about Asanas and thus meaningful practices that can help purify.\n                    She taught us that yoga is more than just exercise, not just a series of asanas, it's much more.\n                    I would like to proceed to be better myself, and push my limits even further and show it to others how can they practice yoga and relax as a sport what can move every muscle in the whole body. \n                </p>\n            </div>\n        </div>\n    </div>\n    <div  class=\"homepageC \">\n        <div class=\"homeRow\">\n            <div class=\"homeImg\">\n                <img src=\".\\assets\\photo2.jpg\">\n            </div>\n            <div class=\"description\">\n                \n                    <p>        \n                        Other than yoga I do different sports as well, like indoor climbing and practicing contortionist. I like the deep and slow stretching. \n                        Iona Luvsandorj Denning is my performer contortion trainer. She works on our adequate flexibility, handstand and contortion during the class. Help us to keep the right positions in the stretching.\n                        I would like to pass through all of this knowledge and experience to my students.\n                        I not want to just practice yoga, I want to pass on to as many people as possible this knowledge, and positive experiences that have fundamentally changed my life.\n                    </p>\n            </div>\n        </div>\n        <div class=\"homeRow \">\n            <!-- <div class=\"firstStep\"> -->\n                        <button mat-raised-button color=\"primary\" [routerLink]=\"'/yogaForBeginners'\">First step</button>\n                   \n            <!-- </div> -->\n            <!-- <div></div> -->\n        </div>\n    </div>\n    <div  class=\"homepageC backgroundImage\">\n        <div  id=\"contacts\" class=\"theEnd\"></div>\n        <div class=\"homeRow reverse opacity\">\n                <div class=\"contactdetails \">\n                        <!-- <mat-card class=\"contactCard\"> -->\n                                <!-- <mat-card-header></mat-card-header> -->\n                                <mat-list role=\"list\">\n                                    <mat-list-item role=\"listitem\">\n                                        <i class=\"material-icons contactIcon\">phone</i>+4474123456789\n                                    </mat-list-item>\n                                    <mat-list-item role=\"listitem\">\n                                        <i class=\"material-icons contactIcon\">email</i>\n                                        <a href=\"mailto:eudoxia87@gmail.com\"> eudoxia87@gmail.com</a>\n                                    </mat-list-item>\n                                    <mat-list-item role=\"listitem\">\n                                        <i class=\"material-icons contactIcon\">location_city</i>\n                                        West Acton, London\n                                    </mat-list-item>\n                                </mat-list>\n                        <!-- </mat-card> -->\n                </div>\n                <section  class=\"description contactInfo\">\n                        <h2  >Contact</h2> \n                        <p class=\"\">        \n                           If you have a question about me, about yoga or just want to chat, pleaase feel free to drop me a line or call me. \n                        </p>\n                    </section>\n            </div>\n    </div>\n</div>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- <div>\n    <mat-card class=\"card\">\n            <mat-card-header class=\"cardTitle\">About Me</mat-card-header>\n            <div class=\"section\">\n                <div class=\"firstPara\">\n                    <p>My story begins when I arrived to England. \n                            This is where I first met Yoga.\n                            Sport always been an important part of my life, so I was open to trying it out.\n                            First I just practiced at home, watching videos, after I decided to go to my local gym, where I attended to yoga (Hatha) and Pilates classes.\n                            When I was stepping on the yoga mat and started practicing Surya Namaskar, it was a fantastic feeling, physically and mentally filled up me, I was reborn.\n                    </p>\n                </div>\n                <div class=\"firstPic\">\n                    <img>\n                </div>\n            </div>\n    </mat-card>\n</div>\n<div>\n    <mat-card class=\"card\">\n            <mat-card-header class=\"cardTitle\">Yoga with Me</mat-card-header>\n            <div class=\"section\">\n                <div class=\"firstPic\">\n                    <img>\n                </div>\n                <div class=\"firstPara\">\n                    <p>After that, I was searching to the opportunity to practicing yoga and I decided to change my lifestyle and that I could focus on yoga. Therefore I decided to apply in a 200 hour yoga teacher training course.\n                        That's how I found Elton Heather's yoga course. The training was very diverse. I learned a lot of things about Asanas and thus meaningful practices that can help purify.\n                        She taught us that yoga is more than just exercise, not just a series of asanas, it's much more.\n                        I would like to proceed to be better myself, and push my limits even further and show it to others how can they practice yoga and relax as a sport what can move every muscle in the whole body. \n                    </p>\n                </div>\n            </div> -->\n    <!-- </mat-card>\n</div>\n<div>\n    <mat-card class=\"card\"> -->\n            <!-- <mat-card-header class=\"cardTitle\">Yoga with Me</mat-card-header> -->\n            <!-- <div class=\"section\">\n                <div class=\"firstPara\">\n                    <p>        \n                        Other than yoga I do different sports as well, like indoor climbing and practicing contortionist. I like the deep and slow stretching. \n                        Iona Luvsandorj Denning is my performer contortion trainer. She works on our adequate flexibility, handstand and contortion during the class. Help us to keep the right positions in the stretching.\n                        I would like to pass through all of this knowledge and experience to my students.\n                        I not want to just practice yoga, I want to pass on to as many people as possible this knowledge, and positive experiences that have fundamentally changed my life.\n                    </p>\n                </div>\n                <div class=\"firstPic\">\n                    <img>\n                </div>\n            </div>\n    </mat-card>\n</div>\n\n\n<div class=\"firstStep\">\n    <button mat-raised-button color=\"primary\" [routerLink]=\"'/yogaForBeginners'\">First step</button>\n</div>\n<mat-card class=\"card\">\n    <div class=\"contactCard\">\n        <mat-card >\n                <mat-card-header>Contact</mat-card-header>\n                <mat-list role=\"list\">\n                    <mat-list-item role=\"listitem\">+4474123456789</mat-list-item>\n                    <mat-list-item role=\"listitem\">eudoxia87@gmail.com</mat-list-item>\n                    <mat-list-item role=\"listitem\">West Acton, London</mat-list-item>\n                </mat-list>\n        </mat-card>\n    \n    </div>\n</mat-card> -->");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/retreat/retreat.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/retreat/retreat.component.html ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"homepageC\">\n        <div class=\"homeRow\">\n            <div class=\"homeImgPortrait\">\n                <img src=\".\\assets\\IMG_20191220_135501.jpg\">\n            </div>\n            <div class=\"description\">\n                <h3>\n                    Yoga Retreat\n                </h3>\n                <p>\n                    Would you like to work on your strength and flexibility, learn more from yoga methods and meditation? \n                    Join us for a 5-day Yoga Retreat in Morocco on the 10th of June – 15th of June in 2020.\n                </p>\n                <p>\n                    Based in a traditional Hotel & Spa Riad which is set in the heart of Marrakech Medina. The rooms and suites at Riad combines a contemporary and Moroccan style. Each room shared with a maximum of 3 people,and equipped with air conditioning. Additional facilities at this Riad include an indoor pool and a restaurant, an on-site spa, a hot tub, and a massage room. There is also a rooftop terrace, where you can try the continental breakfast and admire the panoramic views. It makes scenic locations for morning and evening classes. \n                    The retreat provides a mixture of Hatha classes and traditional Iyengar style yoga. Instruction in asana (postures that hone core strength and flexibility), also you will learn meditations and breathing techniques.\n                </p>\n            </div>   \n        </div>\n<!-- </div>\n<div class=\"homepageC\"> -->\n        <div class=\"homeRow nopaddingTop\">    \n                <div class=\"description \">\n                <h4>\n                    Daily Schedule\n                </h4>\n                    <p>\n                        What will be found here?\n                    </p>\n                    <ul>\n                        <li>\n                            Day 1 <br>\n                            Arrival in a traditional riad, Opening ceremony by having a tea\n                        </li>\n                        <li>\n                            Day 2 <br>\n                            Morning yoga (Awakening the body with Sun salutation)\n                            Breakfast\n                            Offering one day guided trip, camel riding in the desert, by the Atlas mountains.\n                            Arrive back to the Riad \n                        </li>\n                        <li>\n                            Day 3 <br>\n                            Meditations and breathing techniques\n                            Breakfast\n                            Walking tour together in Medina, market street food\n                            Arrive back, and closing the day with Moon salutation in the sunset\n                        </li>\n                        <li>\n                            Day 4 <br>\n                            Morning yoga\n                            Breakfast\n                            Free time for reading, sun-bathing, relaxing near the pool, city tour, shopping\n                            Afternoon tea together in the Riad\n                        </li>\n                        <li>\n                            Day 5 <br>\n                            Meditations and breathing techniques\n                            Breakfast\n                            Check out\n                        </li>\n                    </ul>\n                    <h4>\n                        The price includes:\n                    </h4>\n                    <ul>\n                        <li>\n                            5 nights in shared rooms, single room available for extra fee\n                        </li>\n                        <li>\n                            Breakfast                             \n                        </li>\n                        <li>\n                            Free WiFi access available                            \n                        </li>\n                        <li>\n                            Free coffee or tea                           \n                        </li>\n                        <li>\n                            Daily yoga practices     \n                        </li>\n                        <li>\n                            Guided tour to the desert, including a traditional Berber cuisine\n                        </li>\n                    </ul>\n                    \n                    <p>\n                        Prices start from £750 for a 5-night stay. Contact me with questions or book by email. All levels and abilities are warmly welcomed!\n                    </p>\n                    \n            </div>\n        </div>\n</div>");
 
 /***/ }),
 
@@ -71,7 +84,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>videos works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <p>videos works!</p> -->\n\n\n<!-- <div class=\"homepageC\"> -->\n    <!-- <div class=\"homeRow\"> -->\n        <!-- <div class=\"homeImg\"> -->\n            <div class=\"yt\">\n                <div  [innerHtml]=\"yt_iframe_html\"></div>\n            </div>\n        <!-- </div> -->\n        <!-- <div class=\"description\">\n            <p>       \n                Would you like to work on your strength and flexibility, learn more from yoga methods and meditation to reach your goals?\n                Yoga can help to feel better yourselves as mentally and physically. Its relaxing you after the long busy days, and give us vitality.\n                Yoga helps purify, improve digestion, positively give shape our body, healing our spine health and play an important role in stress relief.\n                I am sure that if you try it, you will feel these positive effects in the short term.\n            </p>\n        </div> -->\n    <!-- </div> -->\n<!-- </div> -->");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/workshop/workshop.component.html":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/workshop/workshop.component.html ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"homepageC\">\n    <div class=\"homeRow\">\n        <div class=\"homeImg\">\n            <img src=\".\\assets\\IMG_20191220_140105.jpg\" >\n        </div>\n        <div class=\"description\">\n            <h3>\n                Intro to Backband Workshop\n            </h3>\n            <h4>\n                What would you find here:\n            </h4>\n            <p>       \n                In this intense workshop, we are working in a small group. We'll be going back to basics on how to approach a safe curve for the spine. You'll have enough space and time to really get to grips with what you need to know when you are ready for a wheel pose.\n                We warm up the body, which is followed by standing and sitting poses, then finally going through some Asanas to build strength to the core for a peak pose, after that cooling down our body with a closing sequence. We hold asanas for 5 deep breaths and notice them.\n            </p>\n        </div>\n    </div>\n    <div class=\"homeRow nopaddingTop\">\n            <div class=\"description\">\n            <h4>\n                Areas covered include:\n            </h4>\n            <p>\n                Wrist, shoulder, core strength and mobility\n                Integrate your muscles to keep you safe and strong in backbends\n                Practices by the wall\n                Safe entry and exit\n            </p>\n            <p>\n                Come and join us to have fun on Friday to keep a Healthy Spine Day together.\n                2.5 hour London based workshop \n                Early bird rate: £25\n                ​Regular Price: £35\n                All levels and abilities are warmly welcomed!\n            </p>\n        </div>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -84,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n\n<div class=\"homepage\">\n        <div class=\"homeRow\">\n            <div class=\"homeImg\">\n                <img>\n            </div>\n            <div class=\"description\">\n                <p>       \n                    Would you like to work on your strength and flexibility, learn more from yoga methods and meditation to reach your goals?\n                    Yoga can help to feel better yourselves as mentally and physically. Its relaxing you after the long busy days, and give us vitality.\n                    Yoga helps purify, improve digestion, positively give shape our body, healing our spine health and play an important role in stress relief.\n                    I am sure that if you try it, you will feel these positive effects in the short term.\n                </p>\n            </div>\n        </div>\n</div>\n\n<!-- <div>\n    <mat-card class=\"card\">\n        <mat-card-header class=\"cardTitle\">Yoga for beginners</mat-card-header>\n        <div class=\"section\">\n            <div class=\"firstPic\">\n                <img>\n            </div>\n            <div class=\"firstPara\">\n                <p>       \n                    Would you like to work on your strength and flexibility, learn more from yoga methods and meditation to reach your goals?\n                    Yoga can help to feel better yourselves as mentally and physically. Its relaxing you after the long busy days, and give us vitality.\n                    Yoga helps purify, improve digestion, positively give shape our body, healing our spine health and play an important role in stress relief.\n                    I am sure that if you try it, you will feel these positive effects in the short term.\n                </p>\n            </div>\n        </div>\n    </mat-card>\n</div> -->");
+/* harmony default export */ __webpack_exports__["default"] = ("\n\n<div class=\"homepageC\">\n        <div class=\"homeRow\">\n            <div class=\"homeImg\">\n                <img src=\".\\assets\\IMG_20191220_135803_1.jpg\" >\n            </div>\n            <div class=\"description\">\n                <p>       \n                    Would you like to work on your strength and flexibility, learn more from yoga methods and meditation to reach your goals?\n                    Yoga can help to feel better yourselves as mentally and physically. Its relaxing you after the long busy days, and give us vitality.\n                    Yoga helps purify, improve digestion, positively give shape our body, healing our spine health and play an important role in stress relief.\n                    I am sure that if you try it, you will feel these positive effects in the short term.\n                </p>\n            </div>\n        </div>\n</div>\n\n<!-- <div>\n    <mat-card class=\"card\">\n        <mat-card-header class=\"cardTitle\">Yoga for beginners</mat-card-header>\n        <div class=\"section\">\n            <div class=\"firstPic\">\n                <img>\n            </div>\n            <div class=\"firstPara\">\n                <p>       \n                    Would you like to work on your strength and flexibility, learn more from yoga methods and meditation to reach your goals?\n                    Yoga can help to feel better yourselves as mentally and physically. Its relaxing you after the long busy days, and give us vitality.\n                    Yoga helps purify, improve digestion, positively give shape our body, healing our spine health and play an important role in stress relief.\n                    I am sure that if you try it, you will feel these positive effects in the short term.\n                </p>\n            </div>\n        </div>\n    </mat-card>\n</div> -->");
 
 /***/ }),
 
@@ -334,6 +360,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _videos_videos_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./videos/videos.component */ "./src/app/videos/videos.component.ts");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _workshop_workshop_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./workshop/workshop.component */ "./src/app/workshop/workshop.component.ts");
+/* harmony import */ var _retreat_retreat_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./retreat/retreat.component */ "./src/app/retreat/retreat.component.ts");
+
+
 
 
 
@@ -350,6 +380,8 @@ const routerOptions = {
 };
 const routes = [{ path: '', redirectTo: '/about', pathMatch: 'full' },
     { path: 'yogaForBeginners', component: _yoga_for_beginners_yoga_for_beginners_component__WEBPACK_IMPORTED_MODULE_3__["YogaForBeginnersComponent"] },
+    { path: 'workshop', component: _workshop_workshop_component__WEBPACK_IMPORTED_MODULE_7__["WorkshopComponent"] },
+    { path: 'retreat', component: _retreat_retreat_component__WEBPACK_IMPORTED_MODULE_8__["RetreatComponent"] },
     { path: 'videos', component: _videos_videos_component__WEBPACK_IMPORTED_MODULE_4__["VideosComponent"] },
     { path: 'contact', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"] },
     { path: 'about', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"] },];
@@ -464,6 +496,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/esm2015/card.js");
 /* harmony import */ var ngx_page_scroll_core__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ngx-page-scroll-core */ "./node_modules/ngx-page-scroll-core/fesm2015/ngx-page-scroll-core.js");
 /* harmony import */ var ngx_page_scroll__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ngx-page-scroll */ "./node_modules/ngx-page-scroll/fesm2015/ngx-page-scroll.js");
+/* harmony import */ var _workshop_workshop_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./workshop/workshop.component */ "./src/app/workshop/workshop.component.ts");
+/* harmony import */ var _retreat_retreat_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./retreat/retreat.component */ "./src/app/retreat/retreat.component.ts");
+/* harmony import */ var ngx_embed_video__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ngx-embed-video */ "./node_modules/ngx-embed-video/dist/index.js");
+/* harmony import */ var ngx_embed_video__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(ngx_embed_video__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+
+
+
+
 
 
 
@@ -493,7 +534,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
             _yoga_for_beginners_yoga_for_beginners_component__WEBPACK_IMPORTED_MODULE_14__["YogaForBeginnersComponent"],
             _videos_videos_component__WEBPACK_IMPORTED_MODULE_15__["VideosComponent"],
-            _contact_contact_component__WEBPACK_IMPORTED_MODULE_16__["ContactComponent"]
+            _contact_contact_component__WEBPACK_IMPORTED_MODULE_16__["ContactComponent"],
+            _workshop_workshop_component__WEBPACK_IMPORTED_MODULE_20__["WorkshopComponent"],
+            _retreat_retreat_component__WEBPACK_IMPORTED_MODULE_21__["RetreatComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -509,7 +552,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _angular_material_menu__WEBPACK_IMPORTED_MODULE_13__["MatMenuModule"],
             _angular_material_card__WEBPACK_IMPORTED_MODULE_17__["MatCardModule"],
             ngx_page_scroll_core__WEBPACK_IMPORTED_MODULE_18__["NgxPageScrollCoreModule"],
-            ngx_page_scroll__WEBPACK_IMPORTED_MODULE_19__["NgxPageScrollModule"]
+            ngx_page_scroll__WEBPACK_IMPORTED_MODULE_19__["NgxPageScrollModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_23__["HttpClientModule"],
+            ngx_embed_video__WEBPACK_IMPORTED_MODULE_22__["EmbedVideo"].forRoot()
         ],
         providers: [],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -573,7 +618,7 @@ ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n/* .firstPara{\r\n    padding-left:15px;\r\n    float:left;\r\n    width:35%;\r\n}\r\n.firstPic{\r\n    float:left;\r\n    background-color:lightgray;\r\n    width:55%;\r\n    height:250px;\r\n    padding-right:15px;\r\n    margin-left:35px;\r\n}\r\n.section{\r\n    margin: 15px 0;\r\n    display:inline-block;\r\n    width:100%;\r\n    max-width:1200px;\r\n}\r\n.cardTitle{\r\n    font-size: 40px;\r\n}\r\n\r\n.firstStep{\r\n    margin:25px;\r\n}\r\n\r\n.contactCard{\r\n    width:300px;\r\n    display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.card{\r\n    margin:10px;\r\n} */\r\n.contacts{\r\n    color:black;\r\n}\r\n@media (max-width:700px) {\r\n    .homeRow{\r\n        display:block;\r\n    }\r\n    .homeImg {\r\n        max-width: 100%;\r\n    }\r\n    .homeImg img, .homeImgPortrait img{\r\n        max-width:100%;\r\n        max-height:100%;\r\n        text-align: center;\r\n    }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7R0FvQ0c7QUFDSDtJQUNJLFdBQVc7QUFDZjtBQUNBO0lBQ0k7UUFDSSxhQUFhO0lBQ2pCO0lBQ0E7UUFDSSxlQUFlO0lBQ25CO0lBQ0E7UUFDSSxjQUFjO1FBQ2QsZUFBZTtRQUNmLGtCQUFrQjtJQUN0QjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLyogLmZpcnN0UGFyYXtcclxuICAgIHBhZGRpbmctbGVmdDoxNXB4O1xyXG4gICAgZmxvYXQ6bGVmdDtcclxuICAgIHdpZHRoOjM1JTtcclxufVxyXG4uZmlyc3RQaWN7XHJcbiAgICBmbG9hdDpsZWZ0O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XHJcbiAgICB3aWR0aDo1NSU7XHJcbiAgICBoZWlnaHQ6MjUwcHg7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OjE1cHg7XHJcbiAgICBtYXJnaW4tbGVmdDozNXB4O1xyXG59XHJcbi5zZWN0aW9ue1xyXG4gICAgbWFyZ2luOiAxNXB4IDA7XHJcbiAgICBkaXNwbGF5OmlubGluZS1ibG9jaztcclxuICAgIHdpZHRoOjEwMCU7XHJcbiAgICBtYXgtd2lkdGg6MTIwMHB4O1xyXG59XHJcbi5jYXJkVGl0bGV7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbn1cclxuXHJcbi5maXJzdFN0ZXB7XHJcbiAgICBtYXJnaW46MjVweDtcclxufVxyXG5cclxuLmNvbnRhY3RDYXJke1xyXG4gICAgd2lkdGg6MzAwcHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5jYXJke1xyXG4gICAgbWFyZ2luOjEwcHg7XHJcbn0gKi9cclxuLmNvbnRhY3Rze1xyXG4gICAgY29sb3I6YmxhY2s7XHJcbn1cclxuQG1lZGlhIChtYXgtd2lkdGg6NzAwcHgpIHtcclxuICAgIC5ob21lUm93e1xyXG4gICAgICAgIGRpc3BsYXk6YmxvY2s7XHJcbiAgICB9XHJcbiAgICAuaG9tZUltZyB7XHJcbiAgICAgICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgfVxyXG4gICAgLmhvbWVJbWcgaW1nLCAuaG9tZUltZ1BvcnRyYWl0IGltZ3tcclxuICAgICAgICBtYXgtd2lkdGg6MTAwJTtcclxuICAgICAgICBtYXgtaGVpZ2h0OjEwMCU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n/* .firstPara{\r\n    padding-left:15px;\r\n    float:left;\r\n    width:35%;\r\n}\r\n.firstPic{\r\n    float:left;\r\n    background-color:lightgray;\r\n    width:55%;\r\n    height:250px;\r\n    padding-right:15px;\r\n    margin-left:35px;\r\n}\r\n.section{\r\n    margin: 15px 0;\r\n    display:inline-block;\r\n    width:100%;\r\n    max-width:1200px;\r\n}\r\n.cardTitle{\r\n    font-size: 40px;\r\n}\r\n\r\n.firstStep{\r\n    margin:25px;\r\n}\r\n\r\n.contactCard{\r\n    width:300px;\r\n    display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.card{\r\n    margin:10px;\r\n} */\r\n.contacts{\r\n    color:black;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7R0FvQ0c7QUFDSDtJQUNJLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi8qIC5maXJzdFBhcmF7XHJcbiAgICBwYWRkaW5nLWxlZnQ6MTVweDtcclxuICAgIGZsb2F0OmxlZnQ7XHJcbiAgICB3aWR0aDozNSU7XHJcbn1cclxuLmZpcnN0UGlje1xyXG4gICAgZmxvYXQ6bGVmdDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1xyXG4gICAgd2lkdGg6NTUlO1xyXG4gICAgaGVpZ2h0OjI1MHB4O1xyXG4gICAgcGFkZGluZy1yaWdodDoxNXB4O1xyXG4gICAgbWFyZ2luLWxlZnQ6MzVweDtcclxufVxyXG4uc2VjdGlvbntcclxuICAgIG1hcmdpbjogMTVweCAwO1xyXG4gICAgZGlzcGxheTppbmxpbmUtYmxvY2s7XHJcbiAgICB3aWR0aDoxMDAlO1xyXG4gICAgbWF4LXdpZHRoOjEyMDBweDtcclxufVxyXG4uY2FyZFRpdGxle1xyXG4gICAgZm9udC1zaXplOiA0MHB4O1xyXG59XHJcblxyXG4uZmlyc3RTdGVwe1xyXG4gICAgbWFyZ2luOjI1cHg7XHJcbn1cclxuXHJcbi5jb250YWN0Q2FyZHtcclxuICAgIHdpZHRoOjMwMHB4O1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG59XHJcblxyXG4uY2FyZHtcclxuICAgIG1hcmdpbjoxMHB4O1xyXG59ICovXHJcbi5jb250YWN0c3tcclxuICAgIGNvbG9yOmJsYWNrO1xyXG59XHJcbiJdfQ== */");
 
 /***/ }),
 
@@ -591,44 +636,58 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var ngx_page_scroll_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-page-scroll-core */ "./node_modules/ngx-page-scroll-core/fesm2015/ngx-page-scroll-core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
 
 
 
 
 let HomeComponent = class HomeComponent {
-    constructor(pageScrollService, document) {
+    constructor(pageScrollService, document, route) {
         this.pageScrollService = pageScrollService;
         this.document = document;
+        this.route = route;
     }
     ngOnInit() {
     }
     ngAfterViewInit() {
         // console.log(this.homepage)
-        this.scrollToElement('v');
+        this.route.fragment.subscribe((fragment) => {
+            if (fragment == "contacts") {
+                this.scrollToElement('.theEnd', 1500);
+                this.scrollIt();
+            }
+            else if (fragment == undefined) {
+                // console.log(undefined)
+                this.scrollToElement('.toTop', 1);
+                this.scrollIt();
+            }
+        });
         // setTimeout(() => {
-        this.scrollIt();
         // }, 1200);
     }
-    scrollToElement($element) {
+    scrollToElement(element, duration) {
         // console.log($element);
         this.pageScrollInstance = this.pageScrollService.create({
             document: this.document,
-            // scrollTarget: '.theEnd',
-            scrollTarget: '#contacts',
+            scrollTarget: element,
+            // scrollTarget: '#contacts',
             scrollViews: [this.homepage.nativeElement],
+            duration: duration
         });
     }
     scrollIt() {
-        console.log("called");
+        // console.log("called")
         this.pageScrollService.start(this.pageScrollInstance);
     }
 };
 HomeComponent.ctorParameters = () => [
     { type: ngx_page_scroll_core__WEBPACK_IMPORTED_MODULE_2__["PageScrollService"] },
-    { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DOCUMENT"],] }] }
+    { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DOCUMENT"],] }] },
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"] }
 ];
 tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('homepage', { static: false })
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('homeContainer', { static: false })
 ], HomeComponent.prototype, "homepage", void 0);
 HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -643,6 +702,50 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/retreat/retreat.component.scss":
+/*!************************************************!*\
+  !*** ./src/app/retreat/retreat.component.scss ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3JldHJlYXQvcmV0cmVhdC5jb21wb25lbnQuc2NzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/retreat/retreat.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/retreat/retreat.component.ts ***!
+  \**********************************************/
+/*! exports provided: RetreatComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RetreatComponent", function() { return RetreatComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let RetreatComponent = class RetreatComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+RetreatComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-retreat',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./retreat.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/retreat/retreat.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./retreat.component.scss */ "./src/app/retreat/retreat.component.scss")).default]
+    })
+], RetreatComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/videos/videos.component.css":
 /*!*********************************************!*\
   !*** ./src/app/videos/videos.component.css ***!
@@ -652,7 +755,7 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3ZpZGVvcy92aWRlb3MuY29tcG9uZW50LmNzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = (".yt{\r\n    width:90%;\r\n    /* display: flex; */\r\n    /* position: relative; */\r\n\tpadding-bottom: 45%; \r\n\theight: 0;\r\n}\r\n\r\n.yt div {\r\n\tposition: absolute;\r\n\ttop: 5%;\r\n\tleft: 5%;\r\n\twidth: 90%;\r\n    height: 90%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlkZW9zL3ZpZGVvcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksU0FBUztJQUNULG1CQUFtQjtJQUNuQix3QkFBd0I7Q0FDM0IsbUJBQW1CO0NBQ25CLFNBQVM7QUFDVjs7QUFFQTtDQUNDLGtCQUFrQjtDQUNsQixPQUFPO0NBQ1AsUUFBUTtDQUNSLFVBQVU7SUFDUCxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC92aWRlb3MvdmlkZW9zLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIueXR7XHJcbiAgICB3aWR0aDo5MCU7XHJcbiAgICAvKiBkaXNwbGF5OiBmbGV4OyAqL1xyXG4gICAgLyogcG9zaXRpb246IHJlbGF0aXZlOyAqL1xyXG5cdHBhZGRpbmctYm90dG9tOiA0NSU7IFxyXG5cdGhlaWdodDogMDtcclxufVxyXG5cclxuLnl0IGRpdiB7XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdHRvcDogNSU7XHJcblx0bGVmdDogNSU7XHJcblx0d2lkdGg6IDkwJTtcclxuICAgIGhlaWdodDogOTAlO1xyXG59Il19 */");
 
 /***/ }),
 
@@ -668,13 +771,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideosComponent", function() { return VideosComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var ngx_embed_video__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-embed-video */ "./node_modules/ngx-embed-video/dist/index.js");
+/* harmony import */ var ngx_embed_video__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(ngx_embed_video__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 let VideosComponent = class VideosComponent {
-    constructor() { }
+    constructor(embedService) {
+        this.embedService = embedService;
+        this.ytLink = "https://youtu.be/8oY5naf226k";
+        this.yt_iframe_html = this.embedService.embed(this.ytLink, {
+            // query: { portrait: 0, color: '333' },
+            attr: { width: '100%', height: '100%' }
+        });
+        // this.yt_iframe_html = this.embedService.embed(this.ytLink, {
+        //   attr: max-width: 920
+        // });
+    }
     ngOnInit() {
     }
 };
+VideosComponent.ctorParameters = () => [
+    { type: ngx_embed_video__WEBPACK_IMPORTED_MODULE_2__["EmbedVideoService"] }
+];
 VideosComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-videos',
@@ -682,6 +801,50 @@ VideosComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./videos.component.css */ "./src/app/videos/videos.component.css")).default]
     })
 ], VideosComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/workshop/workshop.component.scss":
+/*!**************************************************!*\
+  !*** ./src/app/workshop/workshop.component.scss ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3dvcmtzaG9wL3dvcmtzaG9wLmNvbXBvbmVudC5zY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/workshop/workshop.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/workshop/workshop.component.ts ***!
+  \************************************************/
+/*! exports provided: WorkshopComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WorkshopComponent", function() { return WorkshopComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let WorkshopComponent = class WorkshopComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+WorkshopComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-workshop',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./workshop.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/workshop/workshop.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./workshop.component.scss */ "./src/app/workshop/workshop.component.scss")).default]
+    })
+], WorkshopComponent);
 
 
 
@@ -805,4 +968,3 @@ module.exports = __webpack_require__(/*! D:\repos\Doxi\DoxiYoga\src\main.ts */".
 /***/ })
 
 },[[0,"runtime","vendor"]]]);
-//# sourceMappingURL=main-es2015.js.map
